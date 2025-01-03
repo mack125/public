@@ -1,20 +1,67 @@
-<h1>About Me</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem tellus, sagittis non odio nec, interdum
-  elementum lacus. Ut ac justo eget risus sollicitudin fringilla sed ut leo. Ut condimentum elit nec fermentum lobortis.
-  Quisque tincidunt quam nec tincidunt ullamcorper. Integer vitae pretium justo. In placerat volutpat pellentesque.
-  Etiam
-  gravida quam vitae odio pulvinar imperdiet. Vivamus venenatis gravida purus sit amet aliquet. Ut in nibh sed quam
-  laoreet lacinia. Cras cursus ut dui vitae posuere. Vivamus volutpat urna vitae odio fringilla placerat. Nulla vel
-  rhoncus sapien. Phasellus at interdum enim.</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<p>Curabitur elementum sagittis mollis. In porta nec quam ut semper. Nulla volutpat neque quis lacus mattis eleifend.
-  Phasellus et congue odio. Mauris tristique, nisl quis porttitor porttitor, tortor ante mattis ex, at dictum tortor
-  dolor
-  ut sem. Nullam nec libero non ex porta vulputate a eu sapien. In nec bibendum mauris. Fusce iaculis lectus vel magna
-  laoreet gravida.</p>
+<head>
+  <title>Michael McInally</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
 
-<p>Donec euismod vestibulum arcu, a blandit metus mattis ultrices. Integer quis hendrerit justo. Maecenas sed tempor mi.
-  Fusce egestas urna leo. Mauris viverra sem sed libero egestas, volutpat aliquet magna porta. Quisque id diam sed ipsum
-  interdum sollicitudin id quis augue. Donec congue nisl nec massa ornare imperdiet quis quis odio. Etiam ut volutpat
-  nisl. Vestibulum hendrerit justo nibh, eget consequat magna fermentum finibus. Pellentesque et urna fringilla, rutrum
-  neque in, varius leo. Vestibulum efficitur id massa eget pellentesque.</p>
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: lightgrey;
+      padding: 50px;
+    }
+  </style>
+</head>
+
+<body style="background-color:lightgrey">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar">
+        <a class="navbar-brand" href="./index.html" style="color:rgb(42, 41, 41)">Home</a>
+        <button style="margin:5px" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+          </svg>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item"><a href="#">Resumé</a></li>
+          <li class="dropdown-item"><a href="#">website design</a></li>
+          <li class="dropdown-item"><a href="#">manufacturing</a></li>
+          <li class="dropdown-item"><a href="#">3D modeling</a></li>
+          <li class="dropdown-item"><a href="#">3D Printing (additive manufactruing)</a></li>
+          <li class="dropdown-item"><a href="./public/about.html">About</a></li>
+          <li class="dropdown-item"></li><a href="./public/contact.html">Resumé</a></li>
+        </ul>
+      </div>
+  </nav>
+
+  <div class="jumbotron" style="background-color:lightgrey">
+    <div class="container text-center">
+      <h1>Michael McInally </h1>
+      <p>Coder / Desginer / Front-End / Full-Stack / Manufacturing Engineer</p>
+      <p><a style="padding:10px" href="./public/about.html">About</a></p>
+    </div>
+  </div>
+
+
+  <footer class="text-center">
+    <a style="padding:10px" href="./index.html">Home</a>
+  </footer>
+
+</body>
+
+</html>
