@@ -24,10 +24,10 @@ background-color:  rgb(173, 216, 230, .65);
 }
 
 .navbar-brand{
-    border-color: darkgrey;
+    border-color: grey;
 }
 .container{
-    border-color: darkgrey;
+    border-color: grey;
     border: solid 1px;
     display: flex
     border-radius: 25px;
@@ -69,15 +69,18 @@ img{
     top:30%;
     left:65%;
     transform: translate(-50%, -50%)
-    
-
 }
 
-.card{
+.card{ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid gray;
+    border-radius:10px;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
 }
 
@@ -98,10 +101,37 @@ img{
         max-width: 100%;
     }
 }
-h4 a{
-background-color: DARKGREY;
-border-radius: 10px;
-padding:10px;
-border:solid lightgrey;
-border-width: 5px;
+#mongoose{ 
+    background-position: top;
+    height:275px;
+    background-color: black;
+    background-image: url(./assets/images/fullColorBLK.svg)
+}
+button {
+
+    clear: both;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+    background-color:rgb(173, 216, 230);
+    border-radius: 10px;
+    padding: 5px;
+    padding-right:10px;
+    padding-left: 10px;
+    border: solid dimgrey;
+    border-width: 2px;
+}
+#manufacturing{
+    background-position-y:75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:300px;
+    background-color:dimgrey;
+    background-image: url(./assets/images/CAD/aussi-locker[76].png)
+
+}
+#additive{
+    height:200px;
+    background-image:url(./assets/images/CAD/20200504_200143.jpg);
+    background-position: top;
 }
