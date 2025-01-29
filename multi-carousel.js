@@ -1,5 +1,6 @@
 // multi item carousel//
 
+
 $('#multiCarousel').carousel({
   interval: 10000
 })
@@ -15,6 +16,6 @@ $('.carousel .item').each(function(){
     next.next().children(':first-child').clone().appendTo($(this));
   }
   else {
-  	$(this).siblings(':first').children(':first-child').clone().appendTo($(this));
+    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
   }
 });

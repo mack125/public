@@ -33,7 +33,7 @@ background-color:  rgb(173, 216, 230, .65);
     border-radius: 25px;
     width: 95%;
     border-radius: 25px;
-    margin: 10px
+    margin: 2.5%;
 }
 img{
     border-radius: 25px;
@@ -102,8 +102,8 @@ img{
     }
 }
 #mongoose{ 
-    background-position: top;
-    height:275px;
+    background-position: center;
+    height:375px;
     background-color: black;
     background-image: url(./assets/images/fullColorBLK.svg)
 }
@@ -127,29 +127,44 @@ button {
     background-repeat: no-repeat;
     height:300px;
     background-color:dimgrey;
-    background-image: url(./assets/images/CAD/aussi-locker[76].png)
+    background-image: url(./assets/images/CAD/aussi-locker[76].png);
 
 }
 #additive{
-    height:200px;
+    height:325px;
     background-image:url(./assets/images/CAD/20200504_200143.jpg);
     background-position: top;
 }
-
-@media (min-width: 768px) {
-
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-        transform: translateX(25%);
-    }
-
-    .carousel-inner .carousel-item-start.active,
-    .carousel-inner .carousel-item-prev {
-        transform: translateX(-25%);
-    }
+#website-tile{
+    background-image: url(assets/images/website.png);
 }
 
-.carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start {
-    transform: translateX(0);
+.carousel-inner .active.left {
+    left: -33%;
 }
+
+.carousel-inner .active.right {
+    left: 33%;
+}
+
+.carousel-inner .next {
+    left: 33%
+}
+
+.carousel-inner .prev {
+    left: -33%
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-inner .item {
+    background: white;
+    
+}
+
