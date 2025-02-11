@@ -2,18 +2,28 @@ html{
         color:antiquewhite;
 }
 
-.container{
-    background-image: radial-gradient(rgb(173, 216, 230, 1), rgb(173, 216, 230, .6)); 
+.container{color: #a9a9a9;
+    background-image: radial-gradient(rgba(2, 26, 46, 1), rgba(2, 26, 46, 0.65)); 
+    border-color: rgb(42, 41, 41);
 }
 
 #title{
 }
+#headshot{
+    border-radius: 50%;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border: solid grey;
+    border-width: 2px;
+}
 body{
+    
     background-image: url(./assets/images/gears-code.jpg);
     background-attachment: fixed;
 }
 .navbar{
-background-color:  rgb(173, 216, 230, .65);
+background-color:  rgba(2, 26, 46, 0.65);
 }
 .row{
     padding-bottom: 50px;
@@ -107,6 +117,11 @@ img{
     background-color: black;
     background-image: url(./assets/images/fullColorBLK.svg)
 }
+#js{
+    background-image:url(./assets/images/js_logo_icon.svg);
+    background-size:auto;
+
+}
 button {
 
     clear: both;
@@ -166,5 +181,9 @@ button {
 .carousel-inner .item {
     background: white;
     
+}
+.card-body
+{
+    padding-bottom: 10px;
 }
 

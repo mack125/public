@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html" style="color:rgb(42, 41, 41)">Home</a>
+            <a class="navbar-brand" href="./index.html" style="color:#a9a9a9">Home</a>
             <button style="margin:10px; background-color: lightblue" type="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
@@ -46,7 +46,7 @@
         </div>
     </nav>
 
-    <div class="container text-center" style="border-color: darkgrey; border:solid 1px; margin-top:0">
+    <div class="container text-center" style="border-color: rgb(42, 41, 41); border:solid 1px; margin-top:0">
         <h1>Michael McInally </h1>
         <p style="text-decoration: underline overline">Coder / Desginer / Front-End / Full-Stack / Manufacturing
             Engineer</p>
@@ -55,21 +55,30 @@
     </div>
     <div  class="container row" >
         <div class="column">
+            <div class="card" alt="Mongoose-Logo" >
+                <img class="card-img-top" src="./assets/images/fullColorBLK.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mongoose Logo & Website</h5>
+                    <p class="card-text">This is the Logo and no-code website I designed for a local Wrestling club.</p>
+                    <a href="https://www.mongooseelitewrestling.com" class="btn btn-primary">Mongoose site</a>
+                </div>
+            </div>
             <div class="card" id="mongoose" alt="Mongoose-Logo">
                 <button type="button" ><a href="https://www.mongooseelitewrestling.com">Mongoose Website and Logo</button>
         
                 </div>
-            <div class="card">
+            <div class="card" id="js">
                 <button ><a href="javascript-page.html"> JavaScript</a></button>
-                <br/><h1>js bmi calculator</h1>
-                <form>
-                    <label for="weight">Weight</label>
-                    <input type="text" id="weight" name="weight"><br>
-                    <label for="height">Height</label>
-                    <input type="text" id="height" name="height"><br>
-                </form>
-                <button type="button" onclick="bmiCalc(height,weight)">click her to calculate your BMI</button>
-                    <img src="assets/images/js_logo_icon.svg" class="rounded img-responsive" style="width:100%" alt="Image">
+                <div class="container">
+                    <br/><h1>js bmi calculator</h1>
+                    <form>
+                        <label for="weight">Weight</label>
+                        <input type="text" id="weight" name="weight"><br>
+                        <label for="height">Height</label>
+                        <input type="text" id="height" name="height"><br>
+                    </form>
+                    <button type="button" onclick="bmiCalc()">click her to calculate your BMI</button>
+                </div>
             </div>
         </div>
         <div class="column">
@@ -96,7 +105,7 @@
      
     </div>
     
-    <div class="container" style="border-color: darkgrey; border:solid 1px; margin-top:0; height:550px">
+    <div class="container" style="border-color: rgb(42, 41, 41); border:solid 1px; margin-top:0; height:550px">
         <div class="carousel slide" id="multiCarousel" >
             <div class="carousel-inner">
                 <div class="item active">
