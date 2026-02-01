@@ -7,8 +7,6 @@ html{
     border-color: rgb(42, 41, 41);
 }
 
-#title{
-}
 #headshot{
     border-radius: 50%;
     height: 200px;
@@ -38,8 +36,8 @@ background-color:  rgba(2, 26, 46, 0.65);
 }
 .container{
     border-color: grey;
-    border: solid 1px;
-    display: flex
+    border: solid 2px;
+    display: flex;
     border-radius: 25px;
     width: 95%;
     border-radius: 25px;
@@ -85,13 +83,18 @@ img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border:solid gray;
+    border: solid gray;
+    border-width: 1px;
     border-radius:10px;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
     position: relative;
     text-align: center;
+}
+.card:hover {
+background-color: #2980b9; /* Darker shade on hover */
+transform: scale(1.05); /* Slight zoom effect */
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
